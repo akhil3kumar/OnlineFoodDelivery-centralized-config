@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+
+# Eureka server should not register itself
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
