@@ -2,7 +2,7 @@ spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:mysql://mysql:3306/onlineFoodDelivery
+    url: jdbc:mysql://mysql:3307/onlineFoodDelivery
     username: akhil
     password: akhil123
     driver-class-name: com.mysql.cj.jdbc.Driver
